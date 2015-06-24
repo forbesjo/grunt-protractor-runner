@@ -26,7 +26,8 @@
   },
   "scripts": {
     "pretest": "node scripts/webdriver-manager-update",
-    "test": "grunt test"
+    "test": "grunt test",
+    "postinstall": "node scripts/webdriver-manager-update"
   },
   "dependencies": {
     "protractor": "^2.0.0",
